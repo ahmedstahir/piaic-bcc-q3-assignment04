@@ -1,17 +1,13 @@
-# Basic Sample Hardhat Project
+# ASSIGNMENT 4 (ERC721)
 
-This project demonstrates a basic Hardhat use case. It comes with a sample contract, a test for that contract, a sample script that deploys that contract, and an example of a task implementation, which simply lists the available accounts.
+Create an ERC721 Token with the following requirements
 
-Try running some of the following tasks:
-
-```shell
-npx hardhat accounts
-npx hardhat compile
-npx hardhat clean
-npx hardhat test
-npx hardhat node
-node scripts/sample-script.js
-npx hardhat help
-```
-
-Contract address on Ropsten: 0x6e2fD1B331327aeB8A54dF943870d004b6eAaEd8
+- user can only buy tokens when the sale is started
+- the sale should be ended within 30 days
+- the owner can set base URI
+- the owner can set the price of NFT
+- NFT minting hard limit is 100
+ 
+Note:
+- you can use this link as Base URI = "https://floydnft.com/token/"
+- the contract should be deployed on any ethereum test network by using hardhat or truffle
